@@ -135,7 +135,7 @@ export const dungeonHints:DungeonHint[]=[
    "harrow"
   ],
   "title": "Fundort von Click Clack Hideout erfahren",
-  "how": "In Harrowdus die verschlossene Tür im nordöstlichen Haus mit Lockpick öffnen und die Forgery-Notiz lesen; den genannten Espirus nach literature → click-clack gang fragen. Konkrete Südwest-Richtung und drei Kisten im Kreis notieren.",
+  "how": "In Harrowdus vom südlichen Tempelausgang nach rechts (Osten) zu den zwei kleinen Häusern gehen. Das weiter rechts gelegene Haus hat die verschlossene Tür an der Südseite. Mit Lockpick öffnen; drinnen liegen Knochen neben einem Bett. Das Fass durchsuchen und die Forgery-Notiz lesen. Den genannten Espirus nach literature → click-clack gang → hideout fragen und seine Hinweise zu den Sümpfen und einem anderen Eingang notieren.",
   "source": "HarrowdusTriggers.csv:21; data/strings.lua:87; DialogueData - Sheet1.csv:285–287; OverworldTriggers.csv:66,187; clickclack-01Triggers.csv:2–12",
   "kind": "conversation"
  },
@@ -697,8 +697,8 @@ export const dungeonHints:DungeonHint[]=[
    "prepare"
   ],
   "title": "Tower-Schlüsselspur: triangular key in Harrowdus erfahren",
-  "how": "Den Bewohner ansprechen, der von einem furtive visitor spricht: furtive → Although → triangular key. Seine Barrow-Linn-Spur lesen.",
-  "source": "DialogueData - Sheet1.csv:263–265",
+  "how": "Den Bewohner mit der Begrüßung „Not seen you around before. Dying or killing?“ ansprechen; sein Name ist zufällig. Nacheinander nach furtive → Here → Although fragen. Er schickt dich nach Barrow-Linn, wo du später nach triangular key fragst. Seine Barrow-Linn-Spur lesen und bestätigen.",
+  "source": "DialogueData - Sheet1.csv:261–266",
   "requires": [
    "dungeon-trail-cloak"
   ],

@@ -102,10 +102,10 @@ s('winter','Wintersholl','Städtereise','Zurück Richtung Yarrow, dann ostwärts
 ],[],'Hier keine STR-Waffe für diesen Build kaufen. Bögen aus Hauptstadt/Red Grove behalten; die Wolf-Punkte vom Besuch vorerst liegen lassen.','DialogueData.csv:198–220')
 ]),
 s('harrow','Harrowdus','Städtereise','Von Wintersholl südwärts über die Straßen nach Harrowdus.',[
- 'Bewohner: furtive → Although → triangular key → Barrow-Linn. Die Tower-Schlüsselspur verfolgen.',
+ 'Den Bewohner mit der Begrüßung „Not seen you around before. Dying or killing?“ ansprechen; sein Name ist zufällig. Nacheinander nach furtive → Here → Although fragen. Er schickt dich nach Barrow-Linn, wo du später nach triangular key fragst. Die Pfeile sind Gesprächsthemen, keine Gegenstände, die du hier finden musst.',
  'Priester: Relic → die → insist → phrase. Die Jest-Zugangsphrase als Rätsel aufnehmen.',
  'Sprechende Gans: secrets → Bael\'s Key → Idiot → However.',
- 'Im nordöstlichen Haus die verschlossene Tür mit Lockpick öffnen und die Notiz lesen. Den dort genannten Bewohner Espirus nach literature und click-clack gang fragen.'
+ 'Vom südlichen Ausgang des Tempels im Norden der Stadt nach rechts (Osten) gehen. Dort stehen zwei kleine Häuser nebeneinander: Das weiter rechts gelegene Haus hat die gesuchte verschlossene Tür an der Südseite. Mit Lockpick öffnen; drinnen liegen Knochen neben einem Bett. Das Fass durchsuchen und die Notiz lesen. Den dort genannten Espirus nach literature → click-clack gang → hideout fragen. „Lockpick breaks!“ bedeutet einen gescheiterten Zufallsversuch; bei „Cannot unlock!“ braucht die Tür einen besonderen Schlüssel.'
 ],[],'Einige Lockpicks beim Ironmonger (Basis 200), Oil und Heilung beim Apothecary. Vor der nächsten Stadt auffüllen: Barrow-Linn hat keinen Apothecary.','DialogueData.csv:243–248,263–287; HarrowdusTriggers.csv:21; village_sim.lua:53'),
 s('barrow','Barrow-Linn','Städtereise','Zur Hauptstadt zurück, die Fähre südwestwärts nehmen; vom Fährort nordwestlich nach Barrow-Linn.',[
  'Priester: Relic → Repository → unlikely → Locus Box → functioning → parts → Roche → still lives.',
