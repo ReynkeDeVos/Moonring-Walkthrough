@@ -153,7 +153,7 @@ Die unten genannten Zeiten sind die im Guide umgesetzten Empfehlungen. Bei allen
 ### Click Clack Hideout (`click-clack`)
 
 - **Lage:** Südwestlich Harrowdus. Rechercheanker: (296,319)
-- **Ortswissen:** In Harrowdus die verschlossene Tür im nordöstlichen Haus mit Lockpick öffnen und die Forgery-Notiz lesen; den genannten Espirus nach literature → click-clack gang fragen. Konkrete Südwest-Richtung und drei Kisten im Kreis notieren. Abhakpunkt in Etappe(n): `harrow`.
+- **Ortswissen:** In Harrowdus vom südlichen Tempelausgang nach rechts (Osten) zu den zwei kleinen Häusern gehen. Das weiter rechts gelegene Haus hat die verschlossene Tür an der Südseite. Mit Lockpick öffnen; drinnen liegen Knochen neben einem Bett. Das Fass durchsuchen und die Forgery-Notiz lesen. Den genannten Espirus nach literature → click-clack gang → hideout fragen und seine Hinweise zu den Sümpfen und einem anderen Eingang notieren. Abhakpunkt in Etappe(n): `harrow`.
 - **Umfang / Schwierigkeit:** 1 festes Areal · **Schwer**. Mehrere Assassinen und ein Anführer in einem festen Areal. Nach dem ersten Relikt angehen; der freie Rückweg erleichtert einen abgebrochenen Versuch.
 - **Wächter / Gefahr:** Click Clack Leader und mehrere Bandit Assassins.
 - **Zugang / Rückzug:** Keine besondere Zugangssperre. Offenes festes Areal; Rückzug an den Rand möglich. Kein Master-Key-Dungeon.
@@ -668,7 +668,7 @@ Die dauerhafte Implementierung liegt in `src/dungeons.ts`; `src/dungeon-model.ts
 ### Zusätzliche Gesprächsschritte
 
 - **Tower-Schlüsselspur: red cloak in Wintersholl verfolgt** (`winter, prepare`): Nach dem Hearthaven-Priester in Wintersholl einen Bewohner nach red cloak fragen. Die Antwort über den Besucher und seine Rückkehr nach Harrowdus lesen. Beim Wolf-Build auf der Rückreise in Etappe 8 nachholen. Beleg: `DialogueData - Sheet1.csv:177,210–212`.
-- **Tower-Schlüsselspur: triangular key in Harrowdus erfahren** (`harrow, prepare`): Den Bewohner ansprechen, der von einem furtive visitor spricht: furtive → Although → triangular key. Seine Barrow-Linn-Spur lesen. Beleg: `DialogueData - Sheet1.csv:263–265`.
+- **Tower-Schlüsselspur: triangular key in Harrowdus erfahren** (`harrow, prepare`): Den Bewohner mit der Begrüßung „Not seen you around before. Dying or killing?“ ansprechen; sein Name ist zufällig. Nacheinander nach furtive → Here → Although fragen. Er schickt dich nach Barrow-Linn, wo du später nach triangular key fragst. Seine Barrow-Linn-Spur lesen und bestätigen. Beleg: `DialogueData - Sheet1.csv:261–266`.
 - **Tower-Schlüsselspur: Flimpys Hinweis erhalten** (`barrow, prepare`): In Barrow-Linn triangular key → Funny fragen. Flimpy aufsuchen und fence → guess sagen. Erst abhaken, wenn seine Spur nach The Red Grove bekannt ist. Beleg: `DialogueData - Sheet1.csv:334–340`.
 - **Tower-Schlüsselspur: Kenners Flucht erfahren** (`prepare`): In The Red Grove stranger → Kenner → fled → Moon-upon-Thoss fragen. Den Hinweis auf die Hauptstadt lesen, bevor du dort nach Kenner fragst. Beleg: `DialogueData - Sheet1.csv:389–394`.
 - **Repository-Spur und Locus-Box-Aufgabe erfahren** (`barrow, repository`): Beim Barrow-Linn-Priester Relic → Repository → unlikely → Locus Box → functioning → parts fragen. Die Antwort nennt eine ferne Insel, einen verlorenen Steinkreis und Fragmente in Ruinen; sie markiert den Dungeon noch nicht. Beleg: `DialogueData - Sheet1.csv:316–323`.
