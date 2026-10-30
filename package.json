@@ -14,10 +14,10 @@
     "preact": "^11.0.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "2.0.0-beta.sha-52b0dc0e9",
-    "cf": "1.0.0-beta.12",
+    "@cloudflare/vite-plugin": "2.0.0-beta.v.8",
+    "cf": "1.0.0-beta.26",
     "typescript": "^7.0.2",
-    "vite": "^8.3.2",
+    "vite": "^8.3.5",
     "vite-plugin-singlefile": "^2.3.3"
   }
 }
